@@ -1,0 +1,146 @@
+.nav-wrapper {
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255,255,255);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+}
+
+.nav-white-wrapper {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-bottom: 1px solid #E4E4E4;;
+}
+
+.nav-main {
+    max-width: 1080px;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 1;
+}
+
+.nav-items-list {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.nav-avatar-wrapper > img {
+    border-radius: 50%;
+    border: 1px solid #EB3232;
+    padding: 3%;
+    width: 85%;
+    height: 85%;
+}
+
+.about.active ~ hr {
+  margin-left: 1%;
+}
+
+.credit.active ~ hr {
+  margin-left: 33%;
+}
+.login.active ~ hr {
+  margin-left: 62%;
+}
+
+.signup.active ~ hr {
+    margin-left: 86%;
+}
+
+.profile.active ~ hr {
+    margin-left: 63%;
+}
+
+hr {
+    height: 4px;
+    width: 14%;
+    margin: 0;
+    background: #EB3232;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    transition: .3s ease-in-out;
+  }
+  
+  .nav-items-list:last-child ~ hr {
+    margin-left: 75%;
+  }
+
+.nav-item {
+    text-align: left;
+    font-family: Circular Std Book;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-black-text {
+    color: #363636;
+    position: relative;
+}
+
+.brand-logo .b {
+    fill: white;
+    stroke: none;
+}
+
+.brand-logo .a {
+    fill: white;
+    stroke: none;
+}
+
+.brand-logo .d {
+    fill: #EB3232;
+}
+
+.red-logo .b {
+    fill: #b21a22;
+    stroke: none;
+}
+
+.red-logo .a {
+    fill: #e21925;
+}
+
+.red-logo .c {
+    fill: #fff;
+}
+
+.red-logo .d {
+    fill: #1a2128;
+    stroke: none;
+}
+
+.red-logo tspan {
+   fill: #8e8e8e;
+   stroke: none;
+}
+
+.credit > svg {
+    position: absolute;
+    right: -10px;
+}
+
+.credit-star-red .a {
+    fill: #eb3232;
+    stroke: none;
+}
+
+.credit-star-white .a {
+    fill: #fff;
+    stroke: #FFFFFF;
+}

@@ -1,0 +1,203 @@
+.page-container.login {
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+}
+
+.login-container {
+    max-width: 1440px;
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-top: 70px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.page-containe__login__image {
+    width: 45%;
+}
+
+.page-containe__login__image > img {
+    height: 100%;
+}
+
+.page-container__login__content {
+    margin-right: 10%;
+    width: 40%;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page-container__login__content__login- {
+    text-align: left;
+    font: 35px/42px D-DIN DIN;
+    letter-spacing: 0;
+    color: #363636;
+}
+
+.page-container__login__content__email {
+    text-align: left;
+    font: 12px/24px Circular Std Book;
+    letter-spacing: 0;
+    color: #EB3232;
+    margin-top: 7%;
+}
+
+.page-container__login__content__email.__password {
+    margin-top: 5%;
+}
+
+.page-container__login__content__input {
+    margin-top: 2%;
+}
+
+.page-container__login__content__input > input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+    width: 391px;
+    height: 60px;
+    padding: 3%;
+    padding-left: 5%;
+    font: 14px/24px Circular Std Book;
+    /* height: 60px; */
+    box-sizing: border-box;
+}
+
+.page-container__login__content__input > input::placeholder {
+    font: 14px/24px Circular Std Book;
+    letter-spacing: 0;
+    color: #808080;
+}
+
+.page-container__login__content__input > input[type="password"] {
+    font-family: caption;
+}
+
+.page-container__login__content__button-red {
+    width: 391px;
+    height: 62px;
+    background: #EB3232 0% 0% no-repeat padding-box;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: 10px/25px Circular Std Bold;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.page-container__login__content-last {
+    display: flex;
+    margin-top: 5%;
+    width: 391px;
+    justify-content: space-between;
+}
+
+.page-container__login__content__checkbox {
+    width: 18px;
+    height: 18px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #DCDCDC;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-container__login__content-stay-signed-in-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 27%;
+}
+
+.page-container__login__content__small-text {
+    text-align: center;
+    font: 12px/25px Circular Std Book;
+    letter-spacing: 0;
+    color: #3F3F3F;
+}
+
+.page-container__login__content__link-forget-password {
+    text-decoration: underline;
+    font: 10px/25px Circular Std Bold;
+    letter-spacing: 0;
+    color: #EB3232;
+}
+
+.footer-main__bottom-section.login {
+    position: relative;
+    bottom: 0;
+    height: 10%;
+}
+
+#half-footer- {
+    width: 50%;
+}
+
+@media only screen and (max-width : 414px) {
+    .page-containe__login__image {
+    display:none;
+}
+
+.page-container__login__content {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.page-container__login__content__input {
+    width: 100%;
+}
+
+.page-container__login__content__input > input {
+    width: 100%;
+}
+
+.page-container-login-main {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.page-container__login__content__button-red {
+    width: 100%;
+}
+
+.page-container__login__content__login- {
+    font-size: 20px;
+}
+
+.page-container__login__content-last {
+    width: 100%;
+}
+
+.page-container__login__content__small-text {
+    font-size: 50%;
+}
+
+.footer-main__bottom-section__left__copyright, .footer-main__bottom-section__left__powered-by {
+    font-size: 35%;
+}
+
+.footer-main__bottom-section__right__change-language {
+    font-size: 35%;
+}
+
+#half-footer-right {
+    width: 35%;
+}
+
+.footer-main__bottom-section__right__language__text {
+    font-size: 35%;
+}
+
+.footer-main__bottom-section__right__language {
+    width: 45%;
+}
+
+}
