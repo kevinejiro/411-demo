@@ -20,6 +20,7 @@
 
 .page-containe__login__image > img {
     height: 100%;
+    width: 100%;
 }
 
 .page-container__login__content {

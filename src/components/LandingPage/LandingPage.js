@@ -23,7 +23,7 @@ const LandingPage = () => {
                         Get a free hotline number now
                         </div>
                         <div className="landing-page-item__input">
-                            <input placeholder="Your phone number"/>
+                            <input placeholder="Your phone number" />
                         </div>
                         <div className="landing-page-item__button">
                             <div className="landing-page-item__button__text">
