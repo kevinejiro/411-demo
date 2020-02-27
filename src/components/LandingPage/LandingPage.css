@@ -76,14 +76,13 @@
     padding-left: 5%
 }
 
-.landing-page-item__input input::placeholder {
+.landing-page-item__input > input::placeholder,  .landing-page-item__input > input::-webkit-input-placeholder, .landing-page-item__input > input:-ms-input-placeholder, .landing-page-item__input > input:-moz-placeholder {
     text-align: left;
     font: 14px/24px Circular Std Book;
     letter-spacing: 0;
     color: #808080;
     height: 100%;
 }
-
 
 .landing-page-item__button {
     background: #DF3838 0% 0% no-repeat padding-box;
