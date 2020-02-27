@@ -1,4 +1,5 @@
 import React from "react";
+import { useSpring, animated } from "react-spring";
 
 import vectorDown from "../../assets/Vector1.png";
 import flagBrit from "../../assets/united-kingdom/united-kingdom.png";
@@ -7,9 +8,17 @@ import profilePic from "../../assets/lady2/lady.png"
 import "./ProfilePage.css";
 
 const ProfilePage = () => {
+	const fade = useSpring({
+        from: {
+          opacity: 0,
+        },
+        to: {
+		  opacity: 1,
+        }
+      })
 	return (
 		<div className="page-container about">
-			<div className="page-container-main profile">
+			<animated.div style={fade} className="page-container-main profile">
 				<div className="profile__top-container">
 					<div className="profile__top-text"> My Profile</div>
 					<div className="profile__top-button">WITHDRAW EARNINGS</div>
@@ -186,7 +195,7 @@ const ProfilePage = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</animated.div>
 		</div>
 	);
 };

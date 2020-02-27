@@ -15,7 +15,7 @@ const LandingPage = () => {
         }
       })
 	return (
-        <div style={fade} className="page-container">
+        <div className="page-container">
             <animated.div style={fade} className="page-container-main">
                 <div className="landing-page-container">
                     <div className="landing-page-item">
